@@ -14,7 +14,7 @@
       let worker = new Worker("./src/worker/Main.js");
 
       const canvas = document.querySelector("#webgpu");
-      const gpuContext = canvas.getContext('gpupresent');
+      const gpuContext = canvas.getContext('webgpu');
 
       let adaper = await navigator.gpu.requestAdapter();
 
