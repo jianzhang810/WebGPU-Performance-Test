@@ -121,7 +121,7 @@ const initPipeline = (
         primitive: {
             topology: "triangle-list",
         },
-        depthStencilState: {
+        depthStencil: {
             depthWriteEnabled: false,
             depthCompare: "less",
             format: "depth24plus-stencil8",
