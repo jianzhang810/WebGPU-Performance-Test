@@ -10,4 +10,4 @@ npm run dev
 ```
 3.open browser and input the index.html's url(webgpu index.html should run in Chrome/Edge 113 or higher)
 
-input the url like this: http://localhost:3000/test/draw_triangles/webgpu/index.html
+input the url like this: http://localhost:3000/test/compute_shader/webgpu/index.html

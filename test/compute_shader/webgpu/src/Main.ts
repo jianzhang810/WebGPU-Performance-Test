@@ -5,7 +5,7 @@ import { addTime, showTime } from "../../../utils/CPUTimeUtils";
 import { getSize } from "../../../utils/CanvasUtils";
 
 const main = async () => {
-    const instanceCount = 30000;
+    const instanceCount = 3000;
 
     document.querySelector("#instance_count").innerHTML = String(instanceCount);
 
